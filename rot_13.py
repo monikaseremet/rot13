@@ -2,7 +2,7 @@ import string
 string.ascii_lowercase
 ascii_lowercase = list(string.ascii_lowercase)*2
 
-def rot13():
+def rot_13():
     string_decrypted = ""
     string_encrypted = ""
 
@@ -34,4 +34,4 @@ def rot13():
         elif choice.lower() == "q":
             break
 
-rot13()
+rot_13()
